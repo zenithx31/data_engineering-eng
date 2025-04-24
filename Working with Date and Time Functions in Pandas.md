@@ -31,9 +31,6 @@ print(example2)
 1973-05-19 13:37:37.920000
 ```
 
-- `example1`: Interprets 1234.5678 as nanoseconds since 1970-01-01.
-- `example2`: Interprets 1234.5678 as days since 1970-01-01.
-
 ---
 
 ## 📚 DatetimeIndex
@@ -136,5 +133,3 @@ PeriodIndex(['2022', '2023'], dtype='period[Y]', freq='Y')
 <class 'pandas._libs.tslibs.period.Period'>
 ```
 
-- `example1` and `example2`: Generate periods for each month from Jan to Nov 2023.
-- `example3`: Generates yearly periods for 2022 and 2023.
